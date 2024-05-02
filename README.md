@@ -1,6 +1,6 @@
 # Server tag
 
-This is a proof of concept I always wanted to do in Go. The question is whether it is possible to build a (LiveWire)[https://docs.oracle.com/cd/E19957-01/816-6411-10/contents.htm] and Netscape Enterprise Server compatible server-side JavaScript server with Go and the V8 JavaScript engine.
+This is a proof of concept I always wanted to do in Go. The question is whether it is possible to build a [LiveWire](https://docs.oracle.com/cd/E19957-01/816-6411-10/contents.htm) and Netscape Enterprise Server compatible server-side JavaScript server with Go and the V8 JavaScript engine.
 
 ## Server-side JavaScript
 
@@ -30,4 +30,4 @@ The contents inside the `<server></server>` tag is parsed and sent through V8. A
 
 ## Challenges
 
-The main challenge is implementing the interfaces for the JavaScript code to do meaningful things on the server. Since this is plain V8, there are no libraries that you would know from things like Node or Deno. The (v8go)[https://github.com/rogchap/v8go] library however allows for exactly that as it is a binding for the V8 C++ API.
+The main challenge is implementing the interfaces for the JavaScript code to do meaningful things on the server. Since this is plain V8, there are no libraries that you would know from things like Node or Deno. The [v8go](https://github.com/rogchap/v8go) library however allows for exactly that as it is a binding for the V8 C++ API.
