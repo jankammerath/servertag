@@ -1,4 +1,4 @@
-# Servertag
+# Server tag
 
 This is a proof of concept I always wanted to do in Go. The question is whether it is possible to build a (LiveWire)[https://docs.oracle.com/cd/E19957-01/816-6411-10/contents.htm] and Netscape Enterprise Server compatible server-side JavaScript server with Go and the V8 JavaScript engine.
 
