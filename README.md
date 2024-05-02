@@ -1,8 +1,8 @@
-# Server tag
+# Server Tag
 
 This is a proof of concept I always wanted to do in Go. The question is whether it is possible to build a [LiveWire](https://docs.oracle.com/cd/E19957-01/816-6411-10/contents.htm) and Netscape Enterprise Server compatible server-side JavaScript server with Go and the V8 JavaScript engine.
 
-## Server-side JavaScript
+## Server-Side JavaScript
 
 The contents inside the `<server></server>` tag is parsed and sent through V8. After the execution, the output result of the executed JavaScript replaces the `<server>` tag code. Pretty much like early server-side JavaScript. This code thus proves how simple server-side JavaScript or JavaScript in general can be added to extend applications during runtime. 
 
